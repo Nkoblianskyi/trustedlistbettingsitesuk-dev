@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(del \"d:\\\\Downloads\\\\trustedlistbettingsitesuk-dev\\\\pnpm-lock.yaml\")"
+    ]
+  }
+}
