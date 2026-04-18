@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(del \"d:\\\\Downloads\\\\trustedlistbettingsitesuk-dev\\\\pnpm-lock.yaml\")"
+      "Bash(del \"d:\\\\Downloads\\\\trustedlistbettingsitesuk-dev\\\\pnpm-lock.yaml\")",
+      "Bash(npm show *)"
     ]
   }
 }
