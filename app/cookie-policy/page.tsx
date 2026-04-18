@@ -83,7 +83,7 @@ export default function CookiePolicy() {
       <section className="pt-[66px] bg-primary text-primary-foreground">
         <div className="h-px bg-accent" />
         <div className="container mx-auto px-4 py-12 md:py-16">
-          <div className="max-w-2xl">
+          <div className="max-w-2xl items-center">
             <p className="text-xs font-sans font-semibold tracking-[0.22em] uppercase text-accent mb-3">Legal</p>
             <h1 className="font-serif font-bold text-3xl md:text-4xl text-primary-foreground mb-3 text-balance">
               Cookie Policy
