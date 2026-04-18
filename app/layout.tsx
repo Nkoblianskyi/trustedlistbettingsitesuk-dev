@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Trusted List Betting Sites UK | Top Bookmakers 2025 | trustedlistbettingsitesuk.com",
+  title: "Trusted List Betting Sites UK | Top Bookmakers 2026 | trustedlistbettingsitesuk.com",
   description:
     "The UK's most trusted betting sites comparison. Expert reviews, verified bonuses, and top-rated bookmakers. All UKGC licensed and verified by our editorial team.",
   keywords:
