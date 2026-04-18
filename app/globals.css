@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+/* TrustedListBettingSitesUK — Lord / Aristocratic theme */
+/* Palette: Deep Navy, Warm Ivory, Gold, Slate */
+@layer base {
+  :root {
+    --font-sans: var(--font-inter);
+    --font-display: var(--font-playfair);
+
+    /* Core */
+    --background: 40 20% 97%;          /* warm ivory */
+    --foreground: 220 35% 12%;         /* deep navy */
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 35% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 35% 12%;
+
+    /* Brand navy */
+    --primary: 220 35% 12%;
+    --primary-foreground: 40 20% 97%;
+
+    /* Light ivory secondary */
+    --secondary: 40 20% 93%;
+    --secondary-foreground: 220 35% 12%;
+
+    --muted: 40 15% 90%;
+    --muted-foreground: 220 15% 45%;
+
+    /* Gold accent */
+    --accent: 43 74% 50%;
+    --accent-foreground: 220 35% 12%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 84%;
+    --input: 220 15% 84%;
+    --ring: 43 74% 50%;
+
+    --radius: 0.25rem;
+
+    /* Sidebar */
+    --sidebar-background: 220 35% 12%;
+    --sidebar-foreground: 40 20% 97%;
+    --sidebar-primary: 43 74% 50%;
+    --sidebar-primary-foreground: 220 35% 12%;
+    --sidebar-accent: 220 30% 18%;
+    --sidebar-accent-foreground: 40 20% 97%;
+    --sidebar-border: 220 25% 20%;
+    --sidebar-ring: 43 74% 50%;
+
+    /* Custom tokens */
+    --navy: 220 35% 12%;
+    --navy-light: 220 30% 18%;
+    --gold: 43 74% 50%;
+    --gold-light: 43 74% 65%;
+    --ivory: 40 20% 97%;
+    --ivory-dark: 40 15% 90%;
+    --slate: 220 15% 45%;
+  }
+
+  .dark {
+    --background: 220 35% 8%;
+    --foreground: 40 20% 95%;
+    --card: 220 35% 11%;
+    --card-foreground: 40 20% 95%;
+    --popover: 220 35% 11%;
+    --popover-foreground: 40 20% 95%;
+    --primary: 43 74% 50%;
+    --primary-foreground: 220 35% 8%;
+    --secondary: 220 30% 16%;
+    --secondary-foreground: 40 20% 95%;
+    --muted: 220 25% 18%;
+    --muted-foreground: 220 15% 60%;
+    --accent: 43 74% 50%;
+    --accent-foreground: 220 35% 8%;
+    --destructive: 0 63% 35%;
+    --destructive-foreground: 40 20% 95%;
+    --border: 220 25% 20%;
+    --input: 220 25% 20%;
+    --ring: 43 74% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply bg-background;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5 {
+    @apply font-serif;
+  }
+}
+
+/* Thin rule decoration */
+.rule-gold {
+  height: 1px;
+  background: linear-gradient(to right, transparent, hsl(var(--gold)), transparent);
+}
+
+.rule-navy {
+  height: 1px;
+  background: linear-gradient(to right, transparent, hsl(var(--navy)), transparent);
+}
+
+/* Animations */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-up {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in      { animation: fade-in      0.6s ease-out both; }
+.animate-fade-in-up   { animation: fade-in-up   0.6s ease-out both; }
+.animate-slide-up     { animation: slide-up     0.4s ease-out both; }
+.animate-scale-in     { animation: scale-in     0.3s ease-out both; }
