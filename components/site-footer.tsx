@@ -42,7 +42,7 @@ export function SiteFooter() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-sm text-primary-foreground/60 hover:text-accent transition-colors duration-200 flex items-center gap-2 group"
+                    className="text-sm hover:text-accent transition-colors duration-200 flex items-center gap-2 group"
                   >
                     <span className="w-3 h-px bg-accent/40 group-hover:w-4 transition-all duration-200" />
                     {item.label}
