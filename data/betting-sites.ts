@@ -19,7 +19,7 @@ export const bettingSites: BettingSite[] = [
     bonus: "Get £30 Free Bets",
     features: ["Competitive Odds", "Cash Out", "Bet Builder"],
     paymentMethods: ["Visa/Mastercard", "PayPal", "Apple Pay"],
-    link: "https://www.betvictor.com/en-gb/",
+    link: "https://www.betvictor.com/",
     reviews: 5718,
   },
   {
@@ -30,7 +30,7 @@ export const bettingSites: BettingSite[] = [
     bonus: "Get £50 Free Bets",
     features: ["Fast Payouts", "Best Odds Guaranteed", "Live Streaming"],
     paymentMethods: ["Visa/Mastercard", "PayPal", "Bank Transfer"],
-    link: "https://www.betfred.com/sports",
+    link: "https://www.betfred.com/",
     reviews: 4375,
   },
   {
@@ -53,7 +53,7 @@ export const bettingSites: BettingSite[] = [
     bonus: "Only £5 to Claim £30 Welcome Bonus",
     features: ["Live Betting", "Cash Out", "Best Odds"],
     paymentMethods: ["Visa/Mastercard", "PayPal", "Apple Pay"],
-    link: "https://www.ladbrokes.com/en/sports",
+    link: "https://www.ladbrokes.com/",
     reviews: 6851,
   },
   {
@@ -75,7 +75,7 @@ export const bettingSites: BettingSite[] = [
     bonus: "Bet £10, Get £60 in Free Bets",
     features: ["Live Streaming", "In-Play", "Cash Out"],
     paymentMethods: ["Visa/Mastercard", "Bank Transfer"],
-    link: "https://www.spreadex.com/sports",
+    link: "https://www.spreadex.com/",
     reviews: 5276,
   },
 ]
