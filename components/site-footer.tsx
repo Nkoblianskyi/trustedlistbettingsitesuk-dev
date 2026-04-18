@@ -81,7 +81,7 @@ export function SiteFooter() {
               href={logo.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="opacity-40 hover:opacity-80 transition-opacity duration-200"
+              className="hover:opacity-80 transition-opacity duration-200"
             >
               <Image src={logo.src} alt={logo.alt} width={90} height={28} className="object-contain h-7" />
             </Link>
